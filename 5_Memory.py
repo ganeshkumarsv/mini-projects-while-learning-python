@@ -2,7 +2,9 @@
 
 import simplegui
 import random
+import pickle
 
+favorite_color = pickle.load( open( "save.p", "rb" ) )
 # globals variables
 WIDTH = 800 # width of canvas
 HEIGHT = 100 # height of canvas
